@@ -19,7 +19,7 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 sed -i "s/OpenWrt /w.z $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
 
 ########### 更改源码版本 ###########
-sed -i "s/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=5.15/g" target/linux/x86/Makefile
+# sed -i "s/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=5.15/g" target/linux/x86/Makefile
 
 ########### 更改默认主题（可选）###########
 # 删除自定义源默认的 argon 主题
