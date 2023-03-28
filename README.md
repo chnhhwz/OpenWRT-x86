@@ -24,8 +24,8 @@ A template for building OpenWrt with GitHub Actions
 
 ## 感谢 ❤️
 
-  - Lean         https://github.com/coolsnowwolf/lede
-  - P3TERX    GitHub Actions 云编译 OpenWrt https://github.com/P3TERX/Actions-OpenWrt
+  - Lean      https://github.com/coolsnowwolf/lede
+  - P3TERX    https://github.com/P3TERX/Actions-OpenWrt
   - kenzok8   https://github.com/kenzok8/openwrt-packages
   - ximiTech  https://github.com/ximiTech/msd_lite
 
