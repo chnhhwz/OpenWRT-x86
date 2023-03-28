@@ -61,33 +61,6 @@ jobs:
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
-    - name: luci-theme-argon install
-      run: |
-       cd openwrt
-       cd package/lean  
-       rm -rf luci-theme-argon  
-       git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
-
-    - name: luci-app-argon-config install
-      run: |
-       cd openwrt
-       cd package/lean  
-       git clone https://github.com/jerrykuku/luci-app-argon-config.git
-
-    - name: luci-theme-neobird install
-      run: |
-       cd openwrt
-       cd package/lean
-       rm -rf luci-theme-neobird
-       git clone https://github.com/thinktip/luci-theme-neobird.git
-
-    - name: luci-app-poweroff install
-      run: |
-        cd openwrt
-        mkdir package/luci-app-poweroff
-        cd package/luci-app-poweroff
-        git clone https://github.com/ximiTech/luci-app-poweroff.git
-
     - name: luci-app-msd_lite install
       run: |
         cd openwrt
