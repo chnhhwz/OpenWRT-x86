@@ -5,7 +5,7 @@
 
 - 默认IP:   192.168.100.10   |  管理员: root  |  初始密码: 空 
 - 集成插件：
-     PassWall | Adbyby Plus+ | AccessControl | AliDDNS | MultiSD-lite | omcproxy |  WOL | FrpS/FrpC | UPnP | vlmcsd | QoS | EQoS 
+     PassWall | Adbyby Plus+ | AccessControl | AliDdns | MultiSD-lite | OmcProxy |  WOL | FrpS/FrpC | UPnP | Vlmcsd | QoS | EQoS 
 
 ## 感谢 ❤️
 
