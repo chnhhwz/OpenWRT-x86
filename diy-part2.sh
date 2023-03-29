@@ -19,16 +19,7 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 sed -i "s/OpenWrt /w.z $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
 
 ########### 更改源码版本 ###########
-# sed -i "s/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=5.15/g" target/linux/x86/Makefile
-
-########### 更改默认主题（可选）###########
-# 删除自定义源默认的 argon 主题
-# rm -rf package/lean/luci-theme-argon
-# 拉取 argon 原作者的源码
-# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-# 替换默认主题为 luci-theme-argon
-# sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
-# make menuconfig时记得勾选LuCI ---> Applications ---> luci-app-argon-config
+# sed -i "s/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=6.1/g" target/linux/x86/Makefile
 
 ########### 安装msd_lite ###########
 rm -rf feeds/packages/net/msd_lite
