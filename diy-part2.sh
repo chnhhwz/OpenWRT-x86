@@ -27,6 +27,8 @@ git clone https://github.com/ximiTech/msd_lite.git feeds/packages/net/msd_lite
 # rm -rf feeds/luci/applications/luci-app-msd_lite
 # git clone https://github.com/ximiTech/luci-app-msd_lite.git feeds/luci/applications/luci-app-msd_lite
 
-
-
-
+########### 更改默认主题（可选）###########
+# 删除自定义源默认的 argon 主题
+# rm -rf package/lean/luci-theme-argon
+# 拉取 argon 原作者的源码
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
